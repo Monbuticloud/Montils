@@ -46,6 +46,7 @@
           ]
         };
       }
+    
       Halve(args) {
         if (typeof args.NUM === 'number'){
             return (args.NUM / 2);
@@ -110,9 +111,10 @@
                 return 0-(args.NUM);
             }
             else{
-                return 0
+                return 0;
     }
         }
+      }
     Scratch.extensions.register(new MathOperations());
   })(Scratch);
 
