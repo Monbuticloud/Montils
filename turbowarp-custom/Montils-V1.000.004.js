@@ -36,7 +36,13 @@
               opcode: 'pows',
               blockType: Scratch.BlockType.REPORTER,
               text: '[NUM1] to the power of [NUM2]'
-          }
+          },
+              {
+                  opcode: 'negate_int',
+                  blockType: Scratch.BlockType.REPORTER,
+                  text:'negate int [NUM]'
+              }
+              
           ]
         };
       }
@@ -99,6 +105,10 @@
             return 0
         }
       }
+        negate_int(args){
+            if (typeof args.NUM === 'number'){
+                return 0-(args.NUM)
     }
+        }
     Scratch.extensions.register(new MathOperations());
   })(Scratch);
