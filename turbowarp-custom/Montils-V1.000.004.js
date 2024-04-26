@@ -40,7 +40,7 @@
               {
                   opcode: 'negate_int',
                   blockType: Scratch.BlockType.REPORTER,
-                  text:'negate int [NUM]'
+                  text: 'negate int [NUM]'
               }
               
           ]
