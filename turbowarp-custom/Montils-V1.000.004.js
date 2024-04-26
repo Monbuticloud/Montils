@@ -108,6 +108,9 @@
         negate_int(args){
             if (typeof args.NUM === 'number'){
                 return 0-(args.NUM);
+            }
+            else{
+                return 0
     }
         }
     Scratch.extensions.register(new MathOperations());
